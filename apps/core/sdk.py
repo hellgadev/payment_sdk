@@ -1,7 +1,7 @@
 import logging
 from abc import ABC, abstractmethod
 
-from core.utils.exceptions import PaymentException
+from apps.core.utils.exceptions import PaymentException
 
 logging.basicConfig(level=logging.INFO)
 

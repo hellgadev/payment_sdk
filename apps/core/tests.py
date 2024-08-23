@@ -2,11 +2,9 @@ import asyncio
 import unittest
 from unittest.mock import patch, AsyncMock
 
-import websockets
-
-from core.sdk import PaymentSDK
-from core.utils.exceptions import PaymentException
-from core.ws import PaymentWebSocketClient
+from apps.core.sdk import PaymentSDK
+from apps.core.utils.exceptions import PaymentException
+from apps.core.ws import PaymentWebSocketClient
 
 
 class TestPaymentSDK(unittest.TestCase):

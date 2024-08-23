@@ -2,8 +2,8 @@ from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
-from core.api.serializers import PaymentSerializer
-from core.sdk import PaymentSDK
+from apps.core.api.serializers import PaymentSerializer
+from apps.core.sdk import PaymentSDK
 
 
 class PaymentView(APIView):
